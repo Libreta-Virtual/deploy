@@ -9,4 +9,3 @@ VALUES (1, 'Title', 'First Content'),
     (8, 'Title', 'Eighth Content'),
     (9, 'Title', 'Ninth Content'),
     (10, 'Title', 'Tenth Content');
-
