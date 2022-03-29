@@ -42,7 +42,7 @@ const CompCreateDash = () => {
                         />
                     </div>
                 </div>
-                <button type="submit" className="btn btn-primary">Guardar</button>
+                <button type="submit" className="btn btn-dark" style={{color: '#6EBF8B', backgroundColor: '#151D3B' }}>Guardar</button>
             </form>
         </div>
     )

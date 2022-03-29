@@ -6,28 +6,28 @@ const Navbarx = () => {
     
     return (
         <Navbar
-            bg="dark"
-            variant="dark"
+           /*  bg="dark"
+            variant="dark" */
             expand="lg"
-            style={{ backgroundColor: '#0E3EDA' }}>
+            style={{ backgroundColor: '#151D3B' }}>
             <Container>
                 <Navbar.Brand
                     href="/"
-                    style={{ color: '#FFDDEE' }}
+                    style={{ color: '#6EBF8B' }}
                 >Dashboard</Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
-                    style={{ color: '#FFDDEE' }} />
+                    style={{ color: '#6EBF8B' }} />
                 <Navbar.Collapse
                     id="basic-navbar-nav"
-                    style={{ color: '#FFDDEE' }}>
+                    style={{ color: '#6EBF8B' }}>
                     <Nav
                         className="me-auto"
-                        style={{ color: '#FFDDEE' }}>
+                        style={{ color: '#6EBF8B' }}>
 
                         <Nav.Link
                             href="/crear"
-                            style={{ color: '#FFDDEE' }}
+                            style={{ color: '#6EBF8B' }}
                         >Crear <i className="fa-solid fa-circle-plus"></i></Nav.Link>
                                             
                     </Nav>

@@ -55,7 +55,7 @@ const CompEditDash = () => {
                         />
                     </div>
                 </div>
-                <button type="submit" className="btn btn-primary">Actualizar</button>
+                <button type="submit" className="btn btn-dark" style={{color: '#6EBF8B', backgroundColor: '#151D3B' }}>Actualizar</button>
             </form>
         </div>
     )

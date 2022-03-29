@@ -2,7 +2,7 @@
 /backend/node_modules
 
 # ignorar dependencias de frontend
-/client/node_modules
+/frontend/node_modules
 
 /.pnp
 .pnp.js

@@ -29,7 +29,7 @@ const CompShowDash = () => {
                     <div className="card">
                         <div className="card-header">
                             <h3>Dashboards</h3>
-                            <Link to="/crear" className="btn btn-primary">Crear <i className="fa-solid fa-circle-plus"></i></Link>
+                            <Link to="/crear" className="btn btn-dark" style={{backgroundColor:'6EBF8B'}}>Crear <i className="fa-solid fa-circle-plus"></i></Link>
                         </div>
                         <div className="card-body">
                             <table className="table table-striped">
@@ -47,8 +47,8 @@ const CompShowDash = () => {
                                             <td>{dashb.title}</td>
                                             <td>{dashb.content}</td>
                                             <td>
-                                                <Link to={`/edit/${dashb.id}`} className="btn btn-primary">Editar <i className="fa-solid fa-pen-to-square"></i></Link>
-                                                <button onClick={() => deleteDashb(dashb.id)} className="btn btn-danger">Eliminar</button>
+                                                <Link to={`/edit/${dashb.id}`} className="btn btn-secondary" style={{backgroundColor: '#6EBF8B'}}>Editar <i className="fa-solid fa-pen-to-square"></i></Link>
+                                                <button onClick={() => deleteDashb(dashb.id)} className="btn btn-dark" style={{backgroundColor: '#D82148'}}>Eliminar</button>
                                             </td>
                                         </tr>
                                     ))}
